@@ -1,0 +1,576 @@
+{
+  "contrail-control": [
+    "10.0.10.72",
+    "10.0.10.76",
+    "10.0.10.73"
+  ],
+  "contrail-webui": [
+    "10.0.10.59",
+    "10.0.10.69",
+    "10.0.10.74"
+  ],
+  "zookeeper": [
+    "10.0.10.12",
+    "10.0.10.13",
+    "10.0.10.14"
+  ],
+  "contrail-analytics": [
+    "10.0.10.31",
+    "10.0.10.37",
+    "10.0.10.58"
+  ],
+  "nova-cloud-controller": [
+    "10.0.10.28",
+    "10.0.10.54",
+    "10.0.10.25"
+  ],
+  "kafka": [
+    "10.0.10.18",
+    "10.0.10.16",
+    "10.0.10.19"
+  ],
+  "ceph": [
+    "10.0.10.33",
+    "10.0.10.34",
+    "10.0.10.32"
+  ],
+  "neutron-api": [
+    "10.0.10.24",
+    "10.0.10.50",
+    "10.0.10.26"
+  ],
+  "ceph-osd": [
+    "10.0.10.63",
+    "10.0.10.65",
+    "10.0.10.64"
+  ],
+  "glance": [
+    "10.0.10.23",
+    "10.0.10.4",
+    "10.0.10.3"
+  ],
+  "machines": [
+    "10.0.11.236",
+    "10.0.11.235",
+    "10.0.11.60",
+    "10.0.10.64",
+    "10.0.11.52",
+    "10.0.10.65",
+    "10.0.10.63",
+    "10.0.11.124",
+    "10.0.11.171",
+    "10.0.11.170",
+    "10.0.11.60",
+    "10.0.11.59"
+  ],
+  "cassandra": [
+    "10.0.10.20",
+    "10.0.10.29",
+    "10.0.10.30"
+  ],
+  "haproxy": [
+    "10.0.10.71",
+    "10.0.10.62",
+    "10.0.10.17"
+  ],
+  "contrail-configuration": [
+    "10.0.10.75",
+    "10.0.10.77",
+    "10.0.10.60"
+  ],
+  "_meta": {
+    "hostvars": {
+      "10.0.10.28": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.10.28",
+        "ip_address": "10.0.10.28",
+        "juju_name": "nova-cloud-controller/7"
+      },
+      "10.0.10.29": {
+        "node": "3",
+        "ha": "true",
+        "hostname": "10.0.10.29",
+        "ip_address": "10.0.10.29",
+        "juju_name": "cassandra/5"
+      },
+      "10.0.10.75": {
+        "node": "0",
+        "ha": "false",
+        "hostname": "10.0.10.75",
+        "ip_address": "10.0.10.75",
+        "juju_name": "contrail-configuration/3"
+      },
+      "10.0.10.20": {
+        "node": "2",
+        "ha": "true",
+        "hostname": "10.0.10.20",
+        "ip_address": "10.0.10.20",
+        "juju_name": "cassandra/4"
+      },
+      "10.0.10.21": {
+        "node": "3",
+        "ha": "false",
+        "hostname": "10.0.10.21",
+        "ip_address": "10.0.10.21",
+        "juju_name": "rabbitmq-server/9"
+      },
+      "10.0.10.22": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.10.22",
+        "ip_address": "10.0.10.22",
+        "juju_name": "cinder/0"
+      },
+      "10.0.10.23": {
+        "node": "3",
+        "ha": "true",
+        "hostname": "10.0.10.23",
+        "ip_address": "10.0.10.23",
+        "juju_name": "glance/9"
+      },
+      "10.0.10.24": {
+        "node": "3",
+        "ha": "true",
+        "hostname": "10.0.10.24",
+        "ip_address": "10.0.10.24",
+        "juju_name": "neutron-api/10"
+      },
+      "10.0.10.25": {
+        "node": "2",
+        "ha": "true",
+        "hostname": "10.0.10.25",
+        "ip_address": "10.0.10.25",
+        "juju_name": "nova-cloud-controller/8"
+      },
+      "10.0.10.26": {
+        "node": "2",
+        "ha": "true",
+        "hostname": "10.0.10.26",
+        "ip_address": "10.0.10.26",
+        "juju_name": "neutron-api/9"
+      },
+      "10.0.10.69": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.10.69",
+        "ip_address": "10.0.10.69",
+        "juju_name": "contrail-webui/5"
+      },
+      "10.0.10.64": {
+        "node": "0",
+        "ha": "false",
+        "hostname": "10.0.10.64",
+        "ip_address": "10.0.10.64",
+        "juju_name": "ceph-osd/3"
+      },
+      "10.0.10.65": {
+        "node": "0",
+        "ha": "false",
+        "hostname": "10.0.10.65",
+        "ip_address": "10.0.10.65",
+        "juju_name": "ceph-osd/5"
+      },
+      "10.0.10.60": {
+        "node": "3",
+        "ha": "false",
+        "hostname": "10.0.10.60",
+        "ip_address": "10.0.10.60",
+        "juju_name": "contrail-configuration/5"
+      },
+      "10.0.10.62": {
+        "node": "2",
+        "ha": "false",
+        "hostname": "10.0.10.62",
+        "ip_address": "10.0.10.62",
+        "juju_name": "haproxy/1"
+      },
+      "10.0.10.63": {
+        "node": "0",
+        "ha": "false",
+        "hostname": "10.0.10.63",
+        "ip_address": "10.0.10.63",
+        "juju_name": "ceph-osd/4"
+      },
+      "10.0.11.253": {
+        "node": "2",
+        "ha": "false",
+        "hostname": "10.0.11.253",
+        "ip_address": "10.0.11.253",
+        "juju_name": "rabbitmq-server/8"
+      },
+      "10.0.11.252": {
+        "node": "0",
+        "ha": "false",
+        "hostname": "10.0.11.252",
+        "ip_address": "10.0.11.252",
+        "juju_name": "rabbitmq-server/7"
+      },
+      "10.0.11.251": {
+        "node": "2",
+        "ha": "true",
+        "hostname": "10.0.11.251",
+        "ip_address": "10.0.11.251",
+        "juju_name": "keystone/8"
+      },
+      "10.0.11.250": {
+        "node": "3",
+        "ha": "true",
+        "hostname": "10.0.11.250",
+        "ip_address": "10.0.11.250",
+        "juju_name": "keystone/9"
+      },
+      "10.0.11.235": {
+        "node": "3",
+        "ha": "false",
+        "hostname": "10.0.11.235",
+        "ip_address": "10.0.11.235",
+        "juju_name": "nova-compute/2"
+      },
+      "10.0.10.7": {
+        "node": "2",
+        "ha": "true",
+        "hostname": "10.0.10.7",
+        "ip_address": "10.0.10.7",
+        "juju_name": "openstack-dashboard/9"
+      },
+      "10.0.11.236": {
+        "node": "3",
+        "ha": "false",
+        "hostname": "10.0.11.236",
+        "ip_address": "10.0.11.236",
+        "juju_name": "nova-compute/1"
+      },
+      "10.0.10.72": {
+        "node": "3",
+        "ha": "true",
+        "hostname": "10.0.10.72",
+        "ip_address": "10.0.10.72",
+        "juju_name": "contrail-control/5"
+      },
+      "10.0.10.37": {
+        "node": "2",
+        "ha": "",
+        "hostname": "10.0.10.37",
+        "ip_address": "10.0.10.37",
+        "juju_name": "contrail-analytics/4"
+      },
+      "10.0.10.34": {
+        "node": "2",
+        "ha": "false",
+        "hostname": "10.0.10.34",
+        "ip_address": "10.0.10.34",
+        "juju_name": "ceph/3"
+      },
+      "10.0.10.33": {
+        "node": "3",
+        "ha": "false",
+        "hostname": "10.0.10.33",
+        "ip_address": "10.0.10.33",
+        "juju_name": "ceph/4"
+      },
+      "10.0.10.32": {
+        "node": "0",
+        "ha": "false",
+        "hostname": "10.0.10.32",
+        "ip_address": "10.0.10.32",
+        "juju_name": "ceph/2"
+      },
+      "10.0.10.31": {
+        "node": "0",
+        "ha": "",
+        "hostname": "10.0.10.31",
+        "ip_address": "10.0.10.31",
+        "juju_name": "contrail-analytics/3"
+      },
+      "10.0.10.30": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.10.30",
+        "ip_address": "10.0.10.30",
+        "juju_name": "cassandra/3"
+      },
+      "10.0.10.59": {
+        "node": "2",
+        "ha": "true",
+        "hostname": "10.0.10.59",
+        "ip_address": "10.0.10.59",
+        "juju_name": "contrail-webui/4"
+      },
+      "10.0.10.58": {
+        "node": "3",
+        "ha": "",
+        "hostname": "10.0.10.58",
+        "ip_address": "10.0.10.58",
+        "juju_name": "contrail-analytics/5"
+      },
+      "10.0.10.71": {
+        "node": "3",
+        "ha": "false",
+        "hostname": "10.0.10.71",
+        "ip_address": "10.0.10.71",
+        "juju_name": "haproxy/2"
+      },
+      "10.0.10.16": {
+        "node": "2",
+        "ha": "",
+        "hostname": "10.0.10.16",
+        "ip_address": "10.0.10.16",
+        "juju_name": "kafka/6"
+      },
+      "10.0.10.11": {
+        "node": "3",
+        "ha": "true",
+        "hostname": "10.0.10.11",
+        "ip_address": "10.0.10.11",
+        "juju_name": "openstack-dashboard/10"
+      },
+      "10.0.10.76": {
+        "node": "2",
+        "ha": "true",
+        "hostname": "10.0.10.76",
+        "ip_address": "10.0.10.76",
+        "juju_name": "contrail-control/4"
+      },
+      "10.0.10.13": {
+        "node": "2",
+        "ha": "",
+        "hostname": "10.0.10.13",
+        "ip_address": "10.0.10.13",
+        "juju_name": "zookeeper/4"
+      },
+      "10.0.10.12": {
+        "node": "0",
+        "ha": "",
+        "hostname": "10.0.10.12",
+        "ip_address": "10.0.10.12",
+        "juju_name": "zookeeper/3"
+      },
+      "10.0.10.51": {
+        "node": "3",
+        "ha": "true",
+        "hostname": "10.0.10.51",
+        "ip_address": "10.0.10.51",
+        "juju_name": "mysql/9"
+      },
+      "10.0.10.50": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.10.50",
+        "ip_address": "10.0.10.50",
+        "juju_name": "neutron-api/8"
+      },
+      "10.0.10.53": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.10.53",
+        "ip_address": "10.0.10.53",
+        "juju_name": "openstack-dashboard/8"
+      },
+      "10.0.10.52": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.10.52",
+        "ip_address": "10.0.10.52",
+        "juju_name": "keystone/7"
+      },
+      "10.0.10.19": {
+        "node": "0",
+        "ha": "",
+        "hostname": "10.0.10.19",
+        "ip_address": "10.0.10.19",
+        "juju_name": "kafka/7"
+      },
+      "10.0.10.18": {
+        "node": "3",
+        "ha": "",
+        "hostname": "10.0.10.18",
+        "ip_address": "10.0.10.18",
+        "juju_name": "kafka/5"
+      },
+      "10.0.10.73": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.10.73",
+        "ip_address": "10.0.10.73",
+        "juju_name": "contrail-control/3"
+      },
+      "10.0.11.248": {
+        "node": "2",
+        "ha": "true",
+        "hostname": "10.0.11.248",
+        "ip_address": "10.0.11.248",
+        "juju_name": "mysql/8"
+      },
+      "10.0.10.8": {
+        "node": "3",
+        "ha": "false",
+        "hostname": "10.0.10.8",
+        "ip_address": "10.0.10.8",
+        "juju_name": "cinder/2"
+      },
+      "10.0.10.14": {
+        "node": "3",
+        "ha": "",
+        "hostname": "10.0.10.14",
+        "ip_address": "10.0.10.14",
+        "juju_name": "zookeeper/5"
+      },
+      "10.0.10.4": {
+        "node": "2",
+        "ha": "true",
+        "hostname": "10.0.10.4",
+        "ip_address": "10.0.10.4",
+        "juju_name": "glance/8"
+      },
+      "10.0.10.74": {
+        "node": "3",
+        "ha": "true",
+        "hostname": "10.0.10.74",
+        "ip_address": "10.0.10.74",
+        "juju_name": "contrail-webui/3"
+      },
+      "10.0.10.6": {
+        "node": "2",
+        "ha": "false",
+        "hostname": "10.0.10.6",
+        "ip_address": "10.0.10.6",
+        "juju_name": "cinder/1"
+      },
+      "10.0.10.17": {
+        "node": "0",
+        "ha": "false",
+        "hostname": "10.0.10.17",
+        "ip_address": "10.0.10.17",
+        "juju_name": "haproxy/0"
+      },
+      "10.0.10.3": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.10.3",
+        "ip_address": "10.0.10.3",
+        "juju_name": "glance/7"
+      },
+      "10.0.10.77": {
+        "node": "2",
+        "ha": "false",
+        "hostname": "10.0.10.77",
+        "ip_address": "10.0.10.77",
+        "juju_name": "contrail-configuration/4"
+      },
+      "10.0.10.54": {
+        "node": "3",
+        "ha": "true",
+        "hostname": "10.0.10.54",
+        "ip_address": "10.0.10.54",
+        "juju_name": "nova-cloud-controller/9"
+      },
+      "10.0.11.246": {
+        "node": "0",
+        "ha": "true",
+        "hostname": "10.0.11.246",
+        "ip_address": "10.0.11.246",
+        "juju_name": "mysql/7"
+      }
+    }
+  },
+  "nova-compute": [
+    "10.0.11.236",
+    "10.0.11.235"
+  ],
+  "mysql": [
+    "10.0.11.246",
+    "10.0.11.248",
+    "10.0.10.51"
+  ],
+  "rabbitmq-server": [
+    "10.0.11.252",
+    "10.0.11.253",
+    "10.0.10.21"
+  ],
+  "keystone": [
+    "10.0.11.250",
+    "10.0.11.251",
+    "10.0.10.52"
+  ],
+  "openstack-dashboard": [
+    "10.0.10.53",
+    "10.0.10.7",
+    "10.0.10.11"
+  ],
+  "cinder": [
+    "10.0.10.8",
+    "10.0.10.22",
+    "10.0.10.6"
+  ],
+  "allhosts": [
+    "10.0.10.72",
+    "10.0.10.76",
+    "10.0.10.73",
+    "10.0.10.59",
+    "10.0.10.69",
+    "10.0.10.74",
+    "10.0.10.12",
+    "10.0.10.13",
+    "10.0.10.14",
+    "10.0.10.31",
+    "10.0.10.37",
+    "10.0.10.58",
+    "10.0.10.28",
+    "10.0.10.54",
+    "10.0.10.25",
+    "10.0.10.18",
+    "10.0.10.16",
+    "10.0.10.19",
+    "10.0.10.33",
+    "10.0.10.34",
+    "10.0.10.32",
+    "10.0.10.24",
+    "10.0.10.50",
+    "10.0.10.26",
+    "10.0.10.63",
+    "10.0.10.65",
+    "10.0.10.64",
+    "10.0.10.23",
+    "10.0.10.4",
+    "10.0.10.3",
+    "10.0.11.236",
+    "10.0.11.235",
+    "10.0.11.60",
+    "10.0.10.64",
+    "10.0.11.52",
+    "10.0.10.65",
+    "10.0.10.63",
+    "10.0.11.124",
+    "10.0.11.171",
+    "10.0.11.170",
+    "10.0.11.60",
+    "10.0.11.59",
+    "10.0.10.20",
+    "10.0.10.29",
+    "10.0.10.30",
+    "10.0.10.71",
+    "10.0.10.62",
+    "10.0.10.17",
+    "10.0.10.75",
+    "10.0.10.77",
+    "10.0.10.60",
+    "10.0.11.236",
+    "10.0.11.235",
+    "10.0.11.246",
+    "10.0.11.248",
+    "10.0.10.51",
+    "10.0.11.252",
+    "10.0.11.253",
+    "10.0.10.21",
+    "10.0.11.250",
+    "10.0.11.251",
+    "10.0.10.52",
+    "10.0.10.53",
+    "10.0.10.7",
+    "10.0.10.11",
+    "10.0.10.8",
+    "10.0.10.22",
+    "10.0.10.6"
+  ]
+} 
