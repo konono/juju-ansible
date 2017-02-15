@@ -1,0 +1,3683 @@
+{
+  "model": {
+    "name": "kuma2",
+    "controller": "juju-ctrl1",
+    "cloud": "maas",
+    "version": "2.0.2"
+  },
+  "machines": {
+    "0": {
+      "juju-status": {
+        "current": "down",
+        "message": "agent is not communicating with the server",
+        "since": "31 Jan 2017 00:40:37Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.11.124",
+      "ip-addresses": [
+        "10.0.11.124"
+      ],
+      "instance-id": "4rb47y",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "31 Jan 2017 00:36:34Z"
+      },
+      "series": "trusty",
+      "containers": {
+        "0/lxd/50": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:47Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.11.246",
+          "ip-addresses": [
+            "10.0.11.246"
+          ],
+          "instance-id": "juju-563ced-0-lxd-50",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:07:38Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/51": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:38Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.11.249",
+          "ip-addresses": [
+            "10.0.10.52",
+            "10.0.11.249"
+          ],
+          "instance-id": "juju-563ced-0-lxd-51",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:08:26Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/52": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:40Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.11.252",
+          "ip-addresses": [
+            "10.0.11.252"
+          ],
+          "instance-id": "juju-563ced-0-lxd-52",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:19:57Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/53": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:34Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.28",
+          "ip-addresses": [
+            "10.0.10.28"
+          ],
+          "instance-id": "juju-563ced-0-lxd-53",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:53:11Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/54": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:17Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.50",
+          "ip-addresses": [
+            "10.0.10.50",
+            "10.0.10.56"
+          ],
+          "instance-id": "juju-563ced-0-lxd-54",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:00:43Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/55": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:50Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.3",
+          "ip-addresses": [
+            "10.0.10.3",
+            "10.0.10.55"
+          ],
+          "instance-id": "juju-563ced-0-lxd-55",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:01:14Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/56": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:29Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.5",
+          "ip-addresses": [
+            "10.0.10.22",
+            "10.0.10.5"
+          ],
+          "instance-id": "juju-563ced-0-lxd-56",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:06:43Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/57": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:50Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.9",
+          "ip-addresses": [
+            "10.0.10.53",
+            "10.0.10.9"
+          ],
+          "instance-id": "juju-563ced-0-lxd-57",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:07:20Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/58": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:45Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.12",
+          "ip-addresses": [
+            "10.0.10.12"
+          ],
+          "instance-id": "juju-563ced-0-lxd-58",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:10:41Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/59": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:34Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.19",
+          "ip-addresses": [
+            "10.0.10.19"
+          ],
+          "instance-id": "juju-563ced-0-lxd-59",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:11:29Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/60": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:42Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.30",
+          "ip-addresses": [
+            "10.0.10.30"
+          ],
+          "instance-id": "juju-563ced-0-lxd-60",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:12:27Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/61": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:31Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.32",
+          "ip-addresses": [
+            "10.0.10.32"
+          ],
+          "instance-id": "juju-563ced-0-lxd-61",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:24:26Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/62": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:33Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.31",
+          "ip-addresses": [
+            "10.0.10.31"
+          ],
+          "instance-id": "juju-563ced-0-lxd-62",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:26:00Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/63": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:44Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.75",
+          "ip-addresses": [
+            "10.0.10.75"
+          ],
+          "instance-id": "juju-563ced-0-lxd-63",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:31:23Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/64": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:33Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.61",
+          "ip-addresses": [
+            "10.0.10.17",
+            "10.0.10.61"
+          ],
+          "instance-id": "juju-563ced-0-lxd-64",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:34:56Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/65": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:37Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.73",
+          "ip-addresses": [
+            "10.0.10.73"
+          ],
+          "instance-id": "juju-563ced-0-lxd-65",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:38:27Z"
+          },
+          "series": "trusty"
+        },
+        "0/lxd/66": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:54Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.69",
+          "ip-addresses": [
+            "10.0.10.69"
+          ],
+          "instance-id": "juju-563ced-0-lxd-66",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:39:06Z"
+          },
+          "series": "trusty"
+        }
+      },
+      "hardware": "arch=amd64 cores=24 mem=36864M tags=control availability-zone=default"
+    },
+    "10": {
+      "juju-status": {
+        "current": "started",
+        "since": "15 Feb 2017 04:19:32Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.11.235",
+      "ip-addresses": [
+        "10.0.11.235"
+      ],
+      "instance-id": "aqgxqs",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "31 Jan 2017 07:53:22Z"
+      },
+      "series": "trusty",
+      "hardware": "arch=amd64 cores=24 mem=147456M tags=compute availability-zone=default"
+    },
+    "11": {
+      "juju-status": {
+        "current": "started",
+        "since": "15 Feb 2017 04:19:43Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.11.236",
+      "ip-addresses": [
+        "10.0.11.236"
+      ],
+      "instance-id": "db4xnt",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "31 Jan 2017 07:53:39Z"
+      },
+      "series": "trusty",
+      "hardware": "arch=amd64 cores=24 mem=147456M tags=compute availability-zone=default"
+    },
+    "15": {
+      "juju-status": {
+        "current": "started",
+        "since": "15 Feb 2017 04:19:36Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.10.64",
+      "ip-addresses": [
+        "10.0.10.64"
+      ],
+      "instance-id": "fgxfqg",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "01 Feb 2017 09:34:29Z"
+      },
+      "series": "trusty",
+      "hardware": "arch=amd64 cores=12 mem=18432M tags=ceph availability-zone=default"
+    },
+    "16": {
+      "juju-status": {
+        "current": "started",
+        "since": "15 Feb 2017 04:19:35Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.10.63",
+      "ip-addresses": [
+        "10.0.10.63"
+      ],
+      "instance-id": "q6cg8t",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "01 Feb 2017 09:33:15Z"
+      },
+      "series": "trusty",
+      "hardware": "arch=amd64 cores=12 mem=18432M tags=ceph availability-zone=default"
+    },
+    "17": {
+      "juju-status": {
+        "current": "started",
+        "since": "15 Feb 2017 04:19:33Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.10.65",
+      "ip-addresses": [
+        "10.0.10.65"
+      ],
+      "instance-id": "q6qptp",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "01 Feb 2017 09:33:03Z"
+      },
+      "series": "trusty",
+      "hardware": "arch=amd64 cores=12 mem=18432M tags=ceph availability-zone=default"
+    },
+    "2": {
+      "juju-status": {
+        "current": "down",
+        "message": "agent is not communicating with the server",
+        "since": "31 Jan 2017 03:07:26Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.11.170",
+      "ip-addresses": [
+        "10.0.11.170"
+      ],
+      "instance-id": "r6ewqb",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "31 Jan 2017 03:03:39Z"
+      },
+      "series": "trusty",
+      "containers": {
+        "2/lxd/16": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:38Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.11.248",
+          "ip-addresses": [
+            "10.0.11.248"
+          ],
+          "instance-id": "juju-563ced-2-lxd-16",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:08:03Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/17": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:41Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.11.251",
+          "ip-addresses": [
+            "10.0.11.251"
+          ],
+          "instance-id": "juju-563ced-2-lxd-17",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:08:34Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/18": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:46Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.11.253",
+          "ip-addresses": [
+            "10.0.11.253"
+          ],
+          "instance-id": "juju-563ced-2-lxd-18",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:20:02Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/19": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:37Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.25",
+          "ip-addresses": [
+            "10.0.10.25"
+          ],
+          "instance-id": "juju-563ced-2-lxd-19",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:53:10Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/20": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:41Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.26",
+          "ip-addresses": [
+            "10.0.10.26"
+          ],
+          "instance-id": "juju-563ced-2-lxd-20",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:00:44Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/21": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:34Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.4",
+          "ip-addresses": [
+            "10.0.10.4"
+          ],
+          "instance-id": "juju-563ced-2-lxd-21",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:01:15Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/22": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:31Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.6",
+          "ip-addresses": [
+            "10.0.10.6"
+          ],
+          "instance-id": "juju-563ced-2-lxd-22",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:06:47Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/23": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:42Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.7",
+          "ip-addresses": [
+            "10.0.10.7"
+          ],
+          "instance-id": "juju-563ced-2-lxd-23",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:07:21Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/24": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:47Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.13",
+          "ip-addresses": [
+            "10.0.10.13"
+          ],
+          "instance-id": "juju-563ced-2-lxd-24",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:10:20Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/25": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:45Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.16",
+          "ip-addresses": [
+            "10.0.10.16"
+          ],
+          "instance-id": "juju-563ced-2-lxd-25",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:10:54Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/26": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:35Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.20",
+          "ip-addresses": [
+            "10.0.10.20"
+          ],
+          "instance-id": "juju-563ced-2-lxd-26",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:11:38Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/27": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:42Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.34",
+          "ip-addresses": [
+            "10.0.10.34"
+          ],
+          "instance-id": "juju-563ced-2-lxd-27",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:24:32Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/28": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:44Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.37",
+          "ip-addresses": [
+            "10.0.10.37"
+          ],
+          "instance-id": "juju-563ced-2-lxd-28",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:26:05Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/29": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:50Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.77",
+          "ip-addresses": [
+            "10.0.10.77"
+          ],
+          "instance-id": "juju-563ced-2-lxd-29",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:31:29Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/30": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:47Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.62",
+          "ip-addresses": [
+            "10.0.10.62"
+          ],
+          "instance-id": "juju-563ced-2-lxd-30",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:36:29Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/31": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:29Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.76",
+          "ip-addresses": [
+            "10.0.10.76"
+          ],
+          "instance-id": "juju-563ced-2-lxd-31",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:38:39Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/32": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:29Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.59",
+          "ip-addresses": [
+            "10.0.10.59"
+          ],
+          "instance-id": "juju-563ced-2-lxd-32",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:39:11Z"
+          },
+          "series": "trusty"
+        },
+        "2/lxd/33": {
+          "juju-status": {
+            "current": "pending",
+            "since": "14 Feb 2017 03:49:44Z"
+          },
+          "instance-id": "pending",
+          "machine-status": {
+            "current": "pending",
+            "since": "14 Feb 2017 03:49:44Z"
+          },
+          "series": "trusty"
+        }
+      },
+      "hardware": "arch=amd64 cores=24 mem=36864M tags=control availability-zone=default"
+    },
+    "21": {
+      "juju-status": {
+        "current": "started",
+        "since": "15 Feb 2017 04:19:49Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.11.52",
+      "ip-addresses": [
+        "10.0.11.52"
+      ],
+      "instance-id": "me46ps",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "14 Feb 2017 05:27:46Z"
+      },
+      "series": "trusty",
+      "hardware": "arch=amd64 cores=24 mem=147456M tags=compute availability-zone=default"
+    },
+    "27": {
+      "juju-status": {
+        "current": "started",
+        "since": "15 Feb 2017 06:47:35Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.11.54",
+      "ip-addresses": [
+        "10.0.11.54"
+      ],
+      "instance-id": "rbsn83",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "15 Feb 2017 06:44:44Z"
+      },
+      "series": "trusty",
+      "hardware": "arch=amd64 cores=12 mem=18432M tags=reserve,tmp availability-zone=default"
+    },
+    "3": {
+      "juju-status": {
+        "current": "down",
+        "message": "agent is not communicating with the server",
+        "since": "31 Jan 2017 03:07:33Z",
+        "version": "2.0.2"
+      },
+      "dns-name": "10.0.11.171",
+      "ip-addresses": [
+        "10.0.11.171"
+      ],
+      "instance-id": "rp7aek",
+      "machine-status": {
+        "current": "running",
+        "message": "Deployed",
+        "since": "31 Jan 2017 03:03:44Z"
+      },
+      "series": "trusty",
+      "containers": {
+        "3/lxd/16": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:38Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.11.247",
+          "ip-addresses": [
+            "10.0.10.51",
+            "10.0.11.247"
+          ],
+          "instance-id": "juju-563ced-3-lxd-16",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:08:02Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/17": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:33Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.11.250",
+          "ip-addresses": [
+            "10.0.11.250"
+          ],
+          "instance-id": "juju-563ced-3-lxd-17",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:08:32Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/18": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:37Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.21",
+          "ip-addresses": [
+            "10.0.10.21"
+          ],
+          "instance-id": "juju-563ced-3-lxd-18",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:20:03Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/19": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:46Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.57",
+          "ip-addresses": [
+            "10.0.10.54",
+            "10.0.10.57"
+          ],
+          "instance-id": "juju-563ced-3-lxd-19",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 06:53:15Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/20": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:41Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.24",
+          "ip-addresses": [
+            "10.0.10.24"
+          ],
+          "instance-id": "juju-563ced-3-lxd-20",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:00:43Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/21": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:33Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.23",
+          "ip-addresses": [
+            "10.0.10.23"
+          ],
+          "instance-id": "juju-563ced-3-lxd-21",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:01:14Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/22": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:52Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.8",
+          "ip-addresses": [
+            "10.0.10.8"
+          ],
+          "instance-id": "juju-563ced-3-lxd-22",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:06:50Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/23": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:41Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.11",
+          "ip-addresses": [
+            "10.0.10.11"
+          ],
+          "instance-id": "juju-563ced-3-lxd-23",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:07:23Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/24": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:47Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.14",
+          "ip-addresses": [
+            "10.0.10.14"
+          ],
+          "instance-id": "juju-563ced-3-lxd-24",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:10:24Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/25": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:49Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.18",
+          "ip-addresses": [
+            "10.0.10.18"
+          ],
+          "instance-id": "juju-563ced-3-lxd-25",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:10:58Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/26": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:45Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.29",
+          "ip-addresses": [
+            "10.0.10.29"
+          ],
+          "instance-id": "juju-563ced-3-lxd-26",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:11:47Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/27": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:50Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.33",
+          "ip-addresses": [
+            "10.0.10.33"
+          ],
+          "instance-id": "juju-563ced-3-lxd-27",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:24:29Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/28": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:35Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.58",
+          "ip-addresses": [
+            "10.0.10.58"
+          ],
+          "instance-id": "juju-563ced-3-lxd-28",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:26:06Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/29": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:31Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.60",
+          "ip-addresses": [
+            "10.0.10.60"
+          ],
+          "instance-id": "juju-563ced-3-lxd-29",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:31:29Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/30": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:41Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.71",
+          "ip-addresses": [
+            "10.0.10.71"
+          ],
+          "instance-id": "juju-563ced-3-lxd-30",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:36:29Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/31": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:44Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.72",
+          "ip-addresses": [
+            "10.0.10.72"
+          ],
+          "instance-id": "juju-563ced-3-lxd-31",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:38:38Z"
+          },
+          "series": "trusty"
+        },
+        "3/lxd/32": {
+          "juju-status": {
+            "current": "started",
+            "since": "15 Feb 2017 04:19:39Z",
+            "version": "2.0.2"
+          },
+          "dns-name": "10.0.10.74",
+          "ip-addresses": [
+            "10.0.10.74"
+          ],
+          "instance-id": "juju-563ced-3-lxd-32",
+          "machine-status": {
+            "current": "running",
+            "message": "Container started",
+            "since": "01 Feb 2017 07:39:11Z"
+          },
+          "series": "trusty"
+        }
+      },
+      "hardware": "arch=amd64 cores=24 mem=36864M tags=control availability-zone=default"
+    }
+  },
+  "applications": {
+    "cassandra": {
+      "charm": "cs:cassandra-29",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "cassandra",
+      "charm-rev": 29,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "3 node cluster",
+        "since": "01 Feb 2017 07:23:42Z"
+      },
+      "relations": {
+        "cluster": [
+          "cassandra"
+        ],
+        "database": [
+          "contrail-analytics",
+          "contrail-configuration",
+          "contrail-webui"
+        ]
+      },
+      "units": {
+        "cassandra/3": {
+          "workload-status": {
+            "current": "active",
+            "message": "Live seed",
+            "since": "01 Feb 2017 07:25:44Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:58Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/60",
+          "open-ports": [
+            "9042/tcp",
+            "9160/tcp"
+          ],
+          "public-address": "10.0.10.30"
+        },
+        "cassandra/4": {
+          "workload-status": {
+            "current": "active",
+            "message": "Live seed",
+            "since": "14 Feb 2017 04:16:06Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:56Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/26",
+          "open-ports": [
+            "9042/tcp",
+            "9160/tcp"
+          ],
+          "public-address": "10.0.10.20"
+        },
+        "cassandra/5": {
+          "workload-status": {
+            "current": "active",
+            "message": "Live node",
+            "since": "01 Feb 2017 07:22:53Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:56Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/26",
+          "open-ports": [
+            "9042/tcp",
+            "9160/tcp"
+          ],
+          "public-address": "10.0.10.29"
+        }
+      }
+    },
+    "ceph": {
+      "charm": "cs:ceph-269",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "ceph",
+      "charm-rev": 269,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready and clustered",
+        "since": "15 Feb 2017 08:45:09Z"
+      },
+      "relations": {
+        "client": [
+          "cinder-ceph",
+          "glance"
+        ],
+        "juju-info": [
+          "ntp"
+        ],
+        "mon": [
+          "ceph"
+        ],
+        "osd": [
+          "ceph-osd"
+        ]
+      },
+      "units": {
+        "ceph/2": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready and clustered",
+            "since": "15 Feb 2017 08:45:09Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:09Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/61",
+          "public-address": "10.0.10.32",
+          "subordinates": {
+            "ntp/2": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:45:00Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:00Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:ntp-16",
+              "public-address": "10.0.10.32"
+            }
+          }
+        },
+        "ceph/3": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready and clustered",
+            "since": "15 Feb 2017 08:45:06Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:06Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/27",
+          "public-address": "10.0.10.34",
+          "subordinates": {
+            "ntp/1": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:45:09Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:10Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:ntp-16",
+              "public-address": "10.0.10.34"
+            }
+          }
+        },
+        "ceph/4": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready and clustered",
+            "since": "15 Feb 2017 08:45:05Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:05Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/27",
+          "public-address": "10.0.10.33",
+          "subordinates": {
+            "ntp/0": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:45:08Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:08Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:ntp-16",
+              "public-address": "10.0.10.33"
+            }
+          }
+        }
+      },
+      "version": "10.2.3"
+    },
+    "ceph-osd": {
+      "charm": "cs:ceph-osd-239",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "ceph-osd",
+      "charm-rev": 239,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready (2 OSD)",
+        "since": "15 Feb 2017 08:45:03Z"
+      },
+      "relations": {
+        "juju-info": [
+          "ntp"
+        ],
+        "mon": [
+          "ceph"
+        ]
+      },
+      "units": {
+        "ceph-osd/3": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready (2 OSD)",
+            "since": "15 Feb 2017 08:45:03Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:04Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "15",
+          "public-address": "10.0.10.64",
+          "subordinates": {
+            "ntp/22": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:45:00Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:00Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:ntp-16",
+              "public-address": "10.0.10.64"
+            }
+          }
+        },
+        "ceph-osd/4": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready (2 OSD)",
+            "since": "15 Feb 2017 08:44:58Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:58Z",
+            "version": "2.0.2"
+          },
+          "machine": "16",
+          "public-address": "10.0.10.63",
+          "subordinates": {
+            "ntp/21": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:45:00Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:00Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:ntp-16",
+              "public-address": "10.0.10.63"
+            }
+          }
+        },
+        "ceph-osd/5": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready (2 OSD)",
+            "since": "15 Feb 2017 08:44:56Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:56Z",
+            "version": "2.0.2"
+          },
+          "machine": "17",
+          "public-address": "10.0.10.65",
+          "subordinates": {
+            "ntp/20": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:44:59Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:59Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:ntp-16",
+              "public-address": "10.0.10.65"
+            }
+          }
+        }
+      },
+      "version": "10.2.3"
+    },
+    "cinder": {
+      "charm": "cs:cinder-258",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "cinder",
+      "charm-rev": 258,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready",
+        "since": "15 Feb 2017 08:45:20Z"
+      },
+      "relations": {
+        "amqp": [
+          "rabbitmq-server"
+        ],
+        "cinder-volume-service": [
+          "glance",
+          "nova-cloud-controller"
+        ],
+        "cluster": [
+          "cinder"
+        ],
+        "ha": [
+          "cinder-hacluster"
+        ],
+        "identity-service": [
+          "keystone"
+        ],
+        "image-service": [
+          "glance"
+        ],
+        "shared-db": [
+          "mysql"
+        ],
+        "storage-backend": [
+          "cinder-ceph"
+        ]
+      },
+      "units": {
+        "cinder/0": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:20Z"
+          },
+          "juju-status": {
+            "current": "executing",
+            "message": "running update-status hook",
+            "since": "15 Feb 2017 08:45:10Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "0/lxd/56",
+          "open-ports": [
+            "8776/tcp"
+          ],
+          "public-address": "10.0.10.5",
+          "subordinates": {
+            "cinder-ceph/2": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:45:08Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:10Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:cinder-ceph-221",
+              "public-address": "10.0.10.5"
+            },
+            "cinder-hacluster/2": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:02Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:53Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.5"
+            }
+          }
+        },
+        "cinder/1": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:15Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:18Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/22",
+          "open-ports": [
+            "8776/tcp"
+          ],
+          "public-address": "10.0.10.6",
+          "subordinates": {
+            "cinder-ceph/1": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:45:01Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:04Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:cinder-ceph-221",
+              "public-address": "10.0.10.6"
+            },
+            "cinder-hacluster/1": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:02Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:54Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.6"
+            }
+          }
+        },
+        "cinder/2": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:20Z"
+          },
+          "juju-status": {
+            "current": "executing",
+            "message": "running update-status hook",
+            "since": "15 Feb 2017 08:45:10Z",
+            "version": "2.0.2"
+          },
+          "machine": "3/lxd/22",
+          "open-ports": [
+            "8776/tcp"
+          ],
+          "public-address": "10.0.10.8",
+          "subordinates": {
+            "cinder-ceph/0": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:45:07Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:10Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:cinder-ceph-221",
+              "public-address": "10.0.10.8"
+            },
+            "cinder-hacluster/0": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:02Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:54Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.8"
+            }
+          }
+        }
+      },
+      "version": "8.1.1"
+    },
+    "cinder-ceph": {
+      "charm": "cs:cinder-ceph-221",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "cinder-ceph",
+      "charm-rev": 221,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready",
+        "since": "15 Feb 2017 08:45:07Z"
+      },
+      "relations": {
+        "ceph": [
+          "ceph"
+        ],
+        "storage-backend": [
+          "cinder"
+        ]
+      },
+      "subordinate-to": [
+        "cinder"
+      ],
+      "version": "8.1.1"
+    },
+    "cinder-hacluster": {
+      "charm": "cs:hacluster-31",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "hacluster",
+      "charm-rev": 31,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready and clustered",
+        "since": "15 Feb 2017 04:20:02Z"
+      },
+      "relations": {
+        "ha": [
+          "cinder"
+        ],
+        "hanode": [
+          "cinder-hacluster"
+        ]
+      },
+      "subordinate-to": [
+        "cinder"
+      ]
+    },
+    "contrail-analytics": {
+      "charm": "cs:~sdn-charmers/trusty/contrail-analytics-26",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "contrail-analytics",
+      "charm-rev": 26,
+      "can-upgrade-to": "cs:~sdn-charmers/trusty/contrail-analytics-27",
+      "exposed": false,
+      "application-status": {
+        "current": "unknown",
+        "since": "01 Feb 2017 07:28:37Z"
+      },
+      "relations": {
+        "cassandra": [
+          "cassandra"
+        ],
+        "contrail-analytics-api": [
+          "contrail-configuration"
+        ],
+        "contrail-api": [
+          "contrail-configuration"
+        ],
+        "contrail-discovery": [
+          "contrail-configuration"
+        ],
+        "http-services": [
+          "haproxy"
+        ],
+        "identity-admin": [
+          "keystone"
+        ],
+        "identity-service": [
+          "keystone"
+        ],
+        "kafka": [
+          "kafka"
+        ],
+        "zookeeper": [
+          "zookeeper"
+        ]
+      },
+      "units": {
+        "contrail-analytics/3": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:28:37Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:00Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/62",
+          "public-address": "10.0.10.31"
+        },
+        "contrail-analytics/4": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:28:05Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:59Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/28",
+          "public-address": "10.0.10.37"
+        },
+        "contrail-analytics/5": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:28:04Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:00Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/28",
+          "public-address": "10.0.10.58"
+        }
+      }
+    },
+    "contrail-configuration": {
+      "charm": "cs:~sdn-charmers/trusty/contrail-configuration-33",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "contrail-configuration",
+      "charm-rev": 33,
+      "can-upgrade-to": "cs:~sdn-charmers/trusty/contrail-configuration-34",
+      "exposed": false,
+      "application-status": {
+        "current": "unknown",
+        "since": "01 Feb 2017 07:35:08Z"
+      },
+      "relations": {
+        "amqp": [
+          "rabbitmq-server"
+        ],
+        "cassandra": [
+          "cassandra"
+        ],
+        "cluster": [
+          "contrail-configuration"
+        ],
+        "contrail-analytics-api": [
+          "contrail-analytics"
+        ],
+        "contrail-api": [
+          "contrail-analytics",
+          "contrail-control",
+          "contrail-webui",
+          "neutron-api-contrail",
+          "neutron-contrail"
+        ],
+        "contrail-discovery": [
+          "contrail-analytics",
+          "contrail-control",
+          "contrail-webui",
+          "neutron-contrail"
+        ],
+        "contrail-ifmap": [
+          "contrail-control"
+        ],
+        "http-services": [
+          "haproxy"
+        ],
+        "identity-admin": [
+          "keystone"
+        ],
+        "identity-service": [
+          "keystone"
+        ],
+        "zookeeper": [
+          "zookeeper"
+        ]
+      },
+      "units": {
+        "contrail-configuration/3": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:35:08Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:02Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/63",
+          "public-address": "10.0.10.75"
+        },
+        "contrail-configuration/4": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:34:38Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:01Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/29",
+          "public-address": "10.0.10.77"
+        },
+        "contrail-configuration/5": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:34:52Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:02Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/29",
+          "public-address": "10.0.10.60"
+        }
+      }
+    },
+    "contrail-control": {
+      "charm": "cs:~sdn-charmers/trusty/contrail-control-17",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "contrail-control",
+      "charm-rev": 17,
+      "can-upgrade-to": "cs:~sdn-charmers/trusty/contrail-control-18",
+      "exposed": false,
+      "application-status": {
+        "current": "unknown",
+        "since": "01 Feb 2017 07:41:34Z"
+      },
+      "relations": {
+        "contrail-api": [
+          "contrail-configuration"
+        ],
+        "contrail-discovery": [
+          "contrail-configuration"
+        ],
+        "contrail-ifmap": [
+          "contrail-configuration"
+        ],
+        "identity-admin": [
+          "keystone"
+        ]
+      },
+      "units": {
+        "contrail-control/3": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:41:34Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:56Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/65",
+          "public-address": "10.0.10.73"
+        },
+        "contrail-control/4": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:40:36Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:57Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/31",
+          "public-address": "10.0.10.76"
+        },
+        "contrail-control/5": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:40:32Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:01Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/31",
+          "public-address": "10.0.10.72"
+        }
+      }
+    },
+    "contrail-webui": {
+      "charm": "cs:~sdn-charmers/trusty/contrail-webui-37",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "contrail-webui",
+      "charm-rev": 37,
+      "exposed": false,
+      "application-status": {
+        "current": "unknown",
+        "since": "01 Feb 2017 07:40:51Z"
+      },
+      "relations": {
+        "cassandra": [
+          "cassandra"
+        ],
+        "contrail_api": [
+          "contrail-configuration"
+        ],
+        "contrail_discovery": [
+          "contrail-configuration"
+        ],
+        "identity_admin": [
+          "keystone"
+        ],
+        "website": [
+          "haproxy"
+        ]
+      },
+      "units": {
+        "contrail-webui/3": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:40:51Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:58Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/32",
+          "open-ports": [
+            "8080/tcp",
+            "8143/tcp"
+          ],
+          "public-address": "10.0.10.74"
+        },
+        "contrail-webui/4": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:40:51Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:58Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/32",
+          "open-ports": [
+            "8080/tcp",
+            "8143/tcp"
+          ],
+          "public-address": "10.0.10.59"
+        },
+        "contrail-webui/5": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:41:34Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:57Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/66",
+          "open-ports": [
+            "8080/tcp",
+            "8143/tcp"
+          ],
+          "public-address": "10.0.10.69"
+        }
+      }
+    },
+    "glance": {
+      "charm": "cs:glance-253",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "glance",
+      "charm-rev": 253,
+      "can-upgrade-to": "cs:glance-254",
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready",
+        "since": "15 Feb 2017 08:45:12Z"
+      },
+      "relations": {
+        "ceph": [
+          "ceph"
+        ],
+        "cinder-volume-service": [
+          "cinder"
+        ],
+        "cluster": [
+          "glance"
+        ],
+        "ha": [
+          "glance-hacluster"
+        ],
+        "identity-service": [
+          "keystone"
+        ],
+        "image-service": [
+          "cinder",
+          "nova-cloud-controller",
+          "nova-compute"
+        ],
+        "shared-db": [
+          "mysql"
+        ]
+      },
+      "units": {
+        "glance/7": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:12Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:15Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/55",
+          "open-ports": [
+            "9292/tcp"
+          ],
+          "public-address": "10.0.10.3",
+          "subordinates": {
+            "glance-hacluster/5": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:02Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:51Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.3"
+            }
+          }
+        },
+        "glance/8": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:13Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:16Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/21",
+          "open-ports": [
+            "9292/tcp"
+          ],
+          "public-address": "10.0.10.4",
+          "subordinates": {
+            "glance-hacluster/4": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:04Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:56Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.4"
+            }
+          }
+        },
+        "glance/9": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:11Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:13Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/21",
+          "open-ports": [
+            "9292/tcp"
+          ],
+          "public-address": "10.0.10.23",
+          "subordinates": {
+            "glance-hacluster/3": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:01Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:55Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.23"
+            }
+          }
+        }
+      },
+      "version": "12.0.0"
+    },
+    "glance-hacluster": {
+      "charm": "cs:hacluster-31",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "hacluster",
+      "charm-rev": 31,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready and clustered",
+        "since": "15 Feb 2017 04:20:01Z"
+      },
+      "relations": {
+        "ha": [
+          "glance"
+        ],
+        "hanode": [
+          "glance-hacluster"
+        ]
+      },
+      "subordinate-to": [
+        "glance"
+      ]
+    },
+    "haproxy": {
+      "charm": "cs:haproxy-40",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "haproxy",
+      "charm-rev": 40,
+      "exposed": false,
+      "application-status": {
+        "current": "unknown",
+        "since": "01 Feb 2017 07:36:06Z"
+      },
+      "relations": {
+        "juju-info": [
+          "keepalived"
+        ],
+        "peer": [
+          "haproxy"
+        ],
+        "reverseproxy": [
+          "contrail-analytics",
+          "contrail-configuration",
+          "contrail-webui"
+        ]
+      },
+      "units": {
+        "haproxy/0": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:36:06Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:58Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/64",
+          "open-ports": [
+            "8080/tcp",
+            "8081/tcp",
+            "8143/tcp"
+          ],
+          "public-address": "10.0.10.61",
+          "subordinates": {
+            "keepalived/0": {
+              "workload-status": {
+                "current": "unknown",
+                "since": "01 Feb 2017 07:55:32Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:00Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:~sdn-charmers/trusty/keepalived-3",
+              "public-address": "10.0.10.61"
+            }
+          }
+        },
+        "haproxy/1": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:37:25Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:57Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/30",
+          "open-ports": [
+            "8080/tcp",
+            "8081/tcp",
+            "8143/tcp"
+          ],
+          "public-address": "10.0.10.62",
+          "subordinates": {
+            "keepalived/2": {
+              "workload-status": {
+                "current": "unknown",
+                "since": "01 Feb 2017 07:55:52Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:53Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:~sdn-charmers/trusty/keepalived-3",
+              "public-address": "10.0.10.62"
+            }
+          }
+        },
+        "haproxy/2": {
+          "workload-status": {
+            "current": "unknown",
+            "since": "01 Feb 2017 07:37:25Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:57Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/30",
+          "open-ports": [
+            "8080/tcp",
+            "8081/tcp",
+            "8143/tcp"
+          ],
+          "public-address": "10.0.10.71",
+          "subordinates": {
+            "keepalived/1": {
+              "workload-status": {
+                "current": "unknown",
+                "since": "01 Feb 2017 07:56:09Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:51Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:~sdn-charmers/trusty/keepalived-3",
+              "public-address": "10.0.10.71"
+            }
+          }
+        }
+      }
+    },
+    "kafka": {
+      "charm": "cs:~sdn-charmers/trusty/apache-kafka-2",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "apache-kafka",
+      "charm-rev": 2,
+      "can-upgrade-to": "cs:~sdn-charmers/trusty/apache-kafka-3",
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Ready",
+        "since": "15 Feb 2017 04:19:57Z"
+      },
+      "relations": {
+        "kafka": [
+          "contrail-analytics"
+        ],
+        "zookeeper": [
+          "zookeeper"
+        ]
+      },
+      "units": {
+        "kafka/5": {
+          "workload-status": {
+            "current": "active",
+            "message": "Ready",
+            "since": "15 Feb 2017 04:19:57Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:54Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/25",
+          "open-ports": [
+            "9092/tcp"
+          ],
+          "public-address": "10.0.10.18"
+        },
+        "kafka/6": {
+          "workload-status": {
+            "current": "active",
+            "message": "Ready",
+            "since": "15 Feb 2017 04:19:58Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:53Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/25",
+          "open-ports": [
+            "9092/tcp"
+          ],
+          "public-address": "10.0.10.16"
+        },
+        "kafka/7": {
+          "workload-status": {
+            "current": "active",
+            "message": "Ready",
+            "since": "15 Feb 2017 04:19:58Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:52Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/59",
+          "open-ports": [
+            "9092/tcp"
+          ],
+          "public-address": "10.0.10.19"
+        }
+      }
+    },
+    "keepalived": {
+      "charm": "cs:~sdn-charmers/trusty/keepalived-3",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "keepalived",
+      "charm-rev": 3,
+      "exposed": false,
+      "application-status": {
+        "current": "unknown",
+        "since": "01 Feb 2017 07:55:32Z"
+      },
+      "relations": {
+        "juju_info": [
+          "haproxy"
+        ]
+      },
+      "subordinate-to": [
+        "haproxy"
+      ]
+    },
+    "keystone": {
+      "charm": "cs:~sdn-charmers/keystone-0",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "keystone",
+      "charm-rev": 0,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready",
+        "since": "15 Feb 2017 08:41:55Z"
+      },
+      "relations": {
+        "cluster": [
+          "keystone"
+        ],
+        "ha": [
+          "keystone-hacluster"
+        ],
+        "identity-admin": [
+          "contrail-analytics",
+          "contrail-configuration",
+          "contrail-control",
+          "contrail-webui",
+          "neutron-api-contrail",
+          "neutron-contrail"
+        ],
+        "identity-service": [
+          "cinder",
+          "contrail-analytics",
+          "contrail-configuration",
+          "glance",
+          "neutron-api",
+          "nova-cloud-controller",
+          "openstack-dashboard"
+        ],
+        "shared-db": [
+          "mysql"
+        ]
+      },
+      "units": {
+        "keystone/7": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:41:55Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:41:59Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/51",
+          "open-ports": [
+            "5000/tcp"
+          ],
+          "public-address": "10.0.11.249",
+          "subordinates": {
+            "keystone-hacluster/5": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:03Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:53Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.11.249"
+            }
+          }
+        },
+        "keystone/8": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:41:55Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:41:58Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/17",
+          "open-ports": [
+            "5000/tcp"
+          ],
+          "public-address": "10.0.11.251",
+          "subordinates": {
+            "keystone-hacluster/3": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:06Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:59Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.11.251"
+            }
+          }
+        },
+        "keystone/9": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:41:55Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:41:58Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/17",
+          "open-ports": [
+            "5000/tcp"
+          ],
+          "public-address": "10.0.11.250",
+          "subordinates": {
+            "keystone-hacluster/4": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:01Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:54Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.11.250"
+            }
+          }
+        }
+      },
+      "version": "9.2.0"
+    },
+    "keystone-hacluster": {
+      "charm": "cs:hacluster-31",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "hacluster",
+      "charm-rev": 31,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready and clustered",
+        "since": "15 Feb 2017 04:20:06Z"
+      },
+      "relations": {
+        "ha": [
+          "keystone"
+        ],
+        "hanode": [
+          "keystone-hacluster"
+        ]
+      },
+      "subordinate-to": [
+        "keystone"
+      ]
+    },
+    "mysql": {
+      "charm": "cs:percona-cluster-247",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "percona-cluster",
+      "charm-rev": 247,
+      "exposed": false,
+      "application-status": {
+        "current": "error",
+        "message": "hook failed: \"config-changed\"",
+        "since": "15 Feb 2017 08:45:00Z"
+      },
+      "relations": {
+        "cluster": [
+          "mysql"
+        ],
+        "ha": [
+          "mysql-hacluster"
+        ],
+        "shared-db": [
+          "cinder",
+          "glance",
+          "keystone",
+          "neutron-api",
+          "nova-cloud-controller",
+          "nova-compute"
+        ]
+      },
+      "units": {
+        "mysql/7": {
+          "workload-status": {
+            "current": "blocked",
+            "message": "Unit is not in sync",
+            "since": "15 Feb 2017 08:45:02Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:05Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/50",
+          "public-address": "10.0.11.246",
+          "subordinates": {
+            "mysql-hacluster/4": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:03Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:55Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.11.246"
+            }
+          }
+        },
+        "mysql/8": {
+          "workload-status": {
+            "current": "blocked",
+            "message": "Unit is not in sync",
+            "since": "15 Feb 2017 08:45:03Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:06Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/16",
+          "public-address": "10.0.11.248",
+          "subordinates": {
+            "mysql-hacluster/5": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:21:21Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:06Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.11.248"
+            }
+          }
+        },
+        "mysql/9": {
+          "workload-status": {
+            "current": "error",
+            "message": "hook failed: \"config-changed\"",
+            "since": "15 Feb 2017 08:45:00Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:00Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/16",
+          "public-address": "10.0.11.247",
+          "subordinates": {
+            "mysql-hacluster/6": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:06Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:00Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.11.247"
+            }
+          }
+        }
+      },
+      "version": "5.5.37-25.10+dfsg"
+    },
+    "mysql-hacluster": {
+      "charm": "cs:hacluster-31",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "hacluster",
+      "charm-rev": 31,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready and clustered",
+        "since": "15 Feb 2017 04:20:03Z"
+      },
+      "relations": {
+        "ha": [
+          "mysql"
+        ],
+        "hanode": [
+          "mysql-hacluster"
+        ]
+      },
+      "subordinate-to": [
+        "mysql"
+      ]
+    },
+    "neutron-api": {
+      "charm": "cs:neutron-api-247",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "neutron-api",
+      "charm-rev": 247,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready",
+        "since": "15 Feb 2017 08:41:10Z"
+      },
+      "relations": {
+        "amqp": [
+          "rabbitmq-server"
+        ],
+        "cluster": [
+          "neutron-api"
+        ],
+        "ha": [
+          "neutron-hacluster"
+        ],
+        "identity-service": [
+          "keystone"
+        ],
+        "neutron-api": [
+          "nova-cloud-controller"
+        ],
+        "neutron-plugin-api-subordinate": [
+          "neutron-api-contrail"
+        ],
+        "shared-db": [
+          "mysql"
+        ]
+      },
+      "units": {
+        "neutron-api/10": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:09Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:12Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/20",
+          "open-ports": [
+            "9696/tcp"
+          ],
+          "public-address": "10.0.10.24",
+          "subordinates": {
+            "neutron-api-contrail/5": {
+              "workload-status": {
+                "current": "unknown",
+                "since": "01 Feb 2017 07:12:51Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:55Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:~sdn-charmers/trusty/neutron-api-contrail-12",
+              "public-address": "10.0.10.24"
+            },
+            "neutron-hacluster/4": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:49Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:12Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.24"
+            }
+          }
+        },
+        "neutron-api/8": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:41:10Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:41:13Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/54",
+          "open-ports": [
+            "9696/tcp"
+          ],
+          "public-address": "10.0.10.50",
+          "subordinates": {
+            "neutron-api-contrail/7": {
+              "workload-status": {
+                "current": "unknown",
+                "since": "01 Feb 2017 07:10:02Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:56Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:~sdn-charmers/trusty/neutron-api-contrail-12",
+              "public-address": "10.0.10.50"
+            },
+            "neutron-hacluster/6": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:05Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:57Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.50"
+            }
+          }
+        },
+        "neutron-api/9": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:10Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:12Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/20",
+          "open-ports": [
+            "9696/tcp"
+          ],
+          "public-address": "10.0.10.26",
+          "subordinates": {
+            "neutron-api-contrail/6": {
+              "workload-status": {
+                "current": "unknown",
+                "since": "01 Feb 2017 07:12:49Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:13Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:~sdn-charmers/trusty/neutron-api-contrail-12",
+              "public-address": "10.0.10.26"
+            },
+            "neutron-hacluster/5": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:54Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:13Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.26"
+            }
+          }
+        }
+      },
+      "version": "8.3.0"
+    },
+    "neutron-api-contrail": {
+      "charm": "cs:~sdn-charmers/trusty/neutron-api-contrail-12",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "neutron-api-contrail",
+      "charm-rev": 12,
+      "exposed": false,
+      "application-status": {
+        "current": "unknown",
+        "since": "01 Feb 2017 07:12:51Z"
+      },
+      "relations": {
+        "contrail-api": [
+          "contrail-configuration"
+        ],
+        "identity-admin": [
+          "keystone"
+        ],
+        "neutron-plugin-api-subordinate": [
+          "neutron-api"
+        ]
+      },
+      "subordinate-to": [
+        "neutron-api"
+      ]
+    },
+    "neutron-contrail": {
+      "charm": "cs:~sdn-charmers/trusty/neutron-contrail-35",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "neutron-contrail",
+      "charm-rev": 35,
+      "can-upgrade-to": "cs:~sdn-charmers/trusty/neutron-contrail-36",
+      "exposed": false,
+      "application-status": {
+        "current": "unknown",
+        "since": "01 Feb 2017 08:10:41Z"
+      },
+      "relations": {
+        "cluster": [
+          "neutron-contrail"
+        ],
+        "contrail-api": [
+          "contrail-configuration"
+        ],
+        "contrail-discovery": [
+          "contrail-configuration"
+        ],
+        "identity-admin": [
+          "keystone"
+        ],
+        "neutron-plugin": [
+          "nova-compute"
+        ]
+      },
+      "subordinate-to": [
+        "nova-compute"
+      ]
+    },
+    "neutron-hacluster": {
+      "charm": "cs:hacluster-31",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "hacluster",
+      "charm-rev": 31,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready and clustered",
+        "since": "15 Feb 2017 04:20:49Z"
+      },
+      "relations": {
+        "ha": [
+          "neutron-api"
+        ],
+        "hanode": [
+          "neutron-hacluster"
+        ]
+      },
+      "subordinate-to": [
+        "neutron-api"
+      ]
+    },
+    "nova-cloud-controller": {
+      "charm": "cs:nova-cloud-controller-292",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "nova-cloud-controller",
+      "charm-rev": 292,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready",
+        "since": "15 Feb 2017 08:45:12Z"
+      },
+      "relations": {
+        "amqp": [
+          "rabbitmq-server"
+        ],
+        "cinder-volume-service": [
+          "cinder"
+        ],
+        "cloud-compute": [
+          "nova-compute"
+        ],
+        "cluster": [
+          "nova-cloud-controller"
+        ],
+        "ha": [
+          "nova-controller-hacluster"
+        ],
+        "identity-service": [
+          "keystone"
+        ],
+        "image-service": [
+          "glance"
+        ],
+        "neutron-api": [
+          "neutron-api"
+        ],
+        "shared-db": [
+          "mysql"
+        ]
+      },
+      "units": {
+        "nova-cloud-controller/7": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:12Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:15Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/53",
+          "open-ports": [
+            "8774/tcp"
+          ],
+          "public-address": "10.0.10.28",
+          "subordinates": {
+            "nova-controller-hacluster/5": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:03Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:55Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.28"
+            }
+          }
+        },
+        "nova-cloud-controller/8": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:12Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:16Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/19",
+          "open-ports": [
+            "8774/tcp"
+          ],
+          "public-address": "10.0.10.25",
+          "subordinates": {
+            "nova-controller-hacluster/3": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:56Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:16Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.25"
+            }
+          }
+        },
+        "nova-cloud-controller/9": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:12Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:15Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/19",
+          "open-ports": [
+            "8774/tcp"
+          ],
+          "public-address": "10.0.10.57",
+          "subordinates": {
+            "nova-controller-hacluster/4": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:40Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:45:15Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.57"
+            }
+          }
+        }
+      },
+      "version": "13.1.2"
+    },
+    "nova-compute": {
+      "charm": "cs:nova-compute-262",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "nova-compute",
+      "charm-rev": 262,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready",
+        "since": "15 Feb 2017 08:45:07Z"
+      },
+      "relations": {
+        "amqp": [
+          "rabbitmq-server"
+        ],
+        "cloud-compute": [
+          "nova-cloud-controller"
+        ],
+        "compute-peer": [
+          "nova-compute"
+        ],
+        "image-service": [
+          "glance"
+        ],
+        "juju-info": [
+          "ntp"
+        ],
+        "neutron-plugin": [
+          "neutron-contrail"
+        ],
+        "shared-db": [
+          "mysql"
+        ]
+      },
+      "units": {
+        "nova-compute/1": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:07Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:09Z",
+            "version": "2.0.2"
+          },
+          "machine": "11",
+          "public-address": "10.0.11.236",
+          "subordinates": {
+            "neutron-contrail/1": {
+              "workload-status": {
+                "current": "unknown",
+                "since": "01 Feb 2017 08:10:41Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:57Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:~sdn-charmers/trusty/neutron-contrail-35",
+              "public-address": "10.0.11.236"
+            },
+            "ntp/3": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:44:57Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:57Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:ntp-16",
+              "public-address": "10.0.11.236"
+            }
+          }
+        },
+        "nova-compute/2": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:10Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:12Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "10",
+          "public-address": "10.0.11.235",
+          "subordinates": {
+            "neutron-contrail/2": {
+              "workload-status": {
+                "current": "unknown",
+                "since": "01 Feb 2017 08:11:53Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:57Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:~sdn-charmers/trusty/neutron-contrail-35",
+              "public-address": "10.0.11.235"
+            },
+            "ntp/4": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready",
+                "since": "15 Feb 2017 08:44:57Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:57Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:ntp-16",
+              "public-address": "10.0.11.235"
+            }
+          }
+        }
+      },
+      "version": "13.1.2"
+    },
+    "nova-controller-hacluster": {
+      "charm": "cs:hacluster-31",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "hacluster",
+      "charm-rev": 31,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready and clustered",
+        "since": "15 Feb 2017 04:20:56Z"
+      },
+      "relations": {
+        "ha": [
+          "nova-cloud-controller"
+        ],
+        "hanode": [
+          "nova-controller-hacluster"
+        ]
+      },
+      "subordinate-to": [
+        "nova-cloud-controller"
+      ]
+    },
+    "ntp": {
+      "charm": "cs:ntp-16",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "ntp",
+      "charm-rev": 16,
+      "can-upgrade-to": "cs:ntp-17",
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready",
+        "since": "15 Feb 2017 08:45:08Z"
+      },
+      "relations": {
+        "juju-info": [
+          "ceph",
+          "ceph-osd",
+          "nova-compute"
+        ],
+        "ntp-peers": [
+          "ntp"
+        ]
+      },
+      "subordinate-to": [
+        "ceph",
+        "ceph-osd",
+        "nova-compute"
+      ],
+      "version": "4.2.6.p5+dfsg"
+    },
+    "openstack-dashboard": {
+      "charm": "cs:openstack-dashboard-243",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "openstack-dashboard",
+      "charm-rev": 243,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready",
+        "since": "15 Feb 2017 08:45:08Z"
+      },
+      "relations": {
+        "cluster": [
+          "openstack-dashboard"
+        ],
+        "ha": [
+          "openstack-dashboard-hacluster"
+        ],
+        "identity-service": [
+          "keystone"
+        ]
+      },
+      "units": {
+        "openstack-dashboard/10": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:06Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:08Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/23",
+          "open-ports": [
+            "80/tcp",
+            "443/tcp"
+          ],
+          "public-address": "10.0.10.11",
+          "subordinates": {
+            "openstack-dashboard-hacluster/9": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:00Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:53Z",
+                "version": "2.0.2"
+              },
+              "leader": true,
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.11"
+            }
+          }
+        },
+        "openstack-dashboard/8": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:45:08Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:11Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/57",
+          "open-ports": [
+            "80/tcp",
+            "443/tcp"
+          ],
+          "public-address": "10.0.10.9",
+          "subordinates": {
+            "openstack-dashboard-hacluster/10": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:03Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:55Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.9"
+            }
+          }
+        },
+        "openstack-dashboard/9": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready",
+            "since": "15 Feb 2017 08:44:52Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:55Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/23",
+          "open-ports": [
+            "80/tcp",
+            "443/tcp"
+          ],
+          "public-address": "10.0.10.7",
+          "subordinates": {
+            "openstack-dashboard-hacluster/8": {
+              "workload-status": {
+                "current": "active",
+                "message": "Unit is ready and clustered",
+                "since": "15 Feb 2017 04:20:24Z"
+              },
+              "juju-status": {
+                "current": "idle",
+                "since": "15 Feb 2017 08:44:57Z",
+                "version": "2.0.2"
+              },
+              "upgrading-from": "cs:hacluster-31",
+              "public-address": "10.0.10.7"
+            }
+          }
+        }
+      },
+      "version": "9.1.0"
+    },
+    "openstack-dashboard-hacluster": {
+      "charm": "cs:hacluster-31",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "hacluster",
+      "charm-rev": 31,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready and clustered",
+        "since": "15 Feb 2017 04:20:24Z"
+      },
+      "relations": {
+        "ha": [
+          "openstack-dashboard"
+        ],
+        "hanode": [
+          "openstack-dashboard-hacluster"
+        ]
+      },
+      "subordinate-to": [
+        "openstack-dashboard"
+      ]
+    },
+    "rabbitmq-server": {
+      "charm": "cs:rabbitmq-server-57",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "rabbitmq-server",
+      "charm-rev": 57,
+      "can-upgrade-to": "cs:rabbitmq-server-59",
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Unit is ready and clustered",
+        "since": "15 Feb 2017 08:42:24Z"
+      },
+      "relations": {
+        "amqp": [
+          "cinder",
+          "contrail-configuration",
+          "neutron-api",
+          "nova-cloud-controller",
+          "nova-compute"
+        ],
+        "cluster": [
+          "rabbitmq-server"
+        ]
+      },
+      "units": {
+        "rabbitmq-server/7": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready and clustered",
+            "since": "15 Feb 2017 08:42:24Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:42:27Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/52",
+          "open-ports": [
+            "5672/tcp"
+          ],
+          "public-address": "10.0.11.252"
+        },
+        "rabbitmq-server/8": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready and clustered",
+            "since": "15 Feb 2017 08:41:41Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:41:44Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/18",
+          "open-ports": [
+            "5672/tcp"
+          ],
+          "public-address": "10.0.11.253"
+        },
+        "rabbitmq-server/9": {
+          "workload-status": {
+            "current": "active",
+            "message": "Unit is ready and clustered",
+            "since": "15 Feb 2017 08:42:24Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:42:27Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/18",
+          "open-ports": [
+            "5672/tcp"
+          ],
+          "public-address": "10.0.10.21"
+        }
+      },
+      "version": "3.5.7"
+    },
+    "zookeeper": {
+      "charm": "cs:trusty/apache-zookeeper-3",
+      "series": "trusty",
+      "os": "ubuntu",
+      "charm-origin": "jujucharms",
+      "charm-name": "apache-zookeeper",
+      "charm-rev": 3,
+      "exposed": false,
+      "application-status": {
+        "current": "active",
+        "message": "Ready (3 zk units)",
+        "since": "01 Feb 2017 07:15:20Z"
+      },
+      "relations": {
+        "zkclient": [
+          "contrail-analytics",
+          "contrail-configuration",
+          "kafka"
+        ],
+        "zkpeer": [
+          "zookeeper"
+        ]
+      },
+      "units": {
+        "zookeeper/3": {
+          "workload-status": {
+            "current": "active",
+            "message": "Ready (3 zk units)",
+            "since": "01 Feb 2017 07:15:20Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:59Z",
+            "version": "2.0.2"
+          },
+          "machine": "0/lxd/58",
+          "open-ports": [
+            "2181/tcp",
+            "9998/tcp"
+          ],
+          "public-address": "10.0.10.12"
+        },
+        "zookeeper/4": {
+          "workload-status": {
+            "current": "active",
+            "message": "Ready (3 zk units)",
+            "since": "01 Feb 2017 07:15:14Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:44:57Z",
+            "version": "2.0.2"
+          },
+          "machine": "2/lxd/24",
+          "open-ports": [
+            "2181/tcp",
+            "9998/tcp"
+          ],
+          "public-address": "10.0.10.13"
+        },
+        "zookeeper/5": {
+          "workload-status": {
+            "current": "active",
+            "message": "Ready (3 zk units)",
+            "since": "01 Feb 2017 07:15:16Z"
+          },
+          "juju-status": {
+            "current": "idle",
+            "since": "15 Feb 2017 08:45:03Z",
+            "version": "2.0.2"
+          },
+          "leader": true,
+          "machine": "3/lxd/24",
+          "open-ports": [
+            "2181/tcp",
+            "9998/tcp"
+          ],
+          "public-address": "10.0.10.14"
+        }
+      }
+    }
+  }
+}
