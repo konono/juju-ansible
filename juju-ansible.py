@@ -40,9 +40,9 @@ for i in juju_dict[k0].keys(): # application name. ex) keystone
                 else:
                     ha_flag = "false"
 
+            machine_id = re.sub(r'/.*', "", unit_machine)
             # Check Machine or Container
             if "/" in unit_machine:
-                machine_id = re.sub(r'/.*', "", unit_machine)
 
                 ip = juju_dict[k2][machine_id]["containers"][unit_machine]["ip-addresses"][0]
                 application_list[i].append(ip)
